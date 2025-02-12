@@ -31,9 +31,3 @@ jobs:
     # Step 4: Run tests
     - name: Run tests
       run: npm test
-
-    # Step 5: Deploy to production (or staging)
-    - name: Deploy to Production
-      run: |
-        # Your deployment script/commands
-        ./deploy.sh
